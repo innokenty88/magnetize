@@ -1,0 +1,145 @@
+@keyframes translateX {
+    0% {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes translateY {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes back {
+    0% {
+        opacity: 1;
+}
+
+}
+
+
+* {
+    animation: translateX 1s;
+}
+
+html {
+    animation: back 1s;
+}
+
+header {
+    animation: translateY 1s;
+}
+
+
+@keyframes translateX-2 {
+    0% {
+        transform: translateX(300px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.under-career {
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.under-career-one, .under-career-two {
+    margin-top: 100px;
+}
+
+.under-career-two {
+    text-align: right;
+    animation: translateX 1s;
+}
+
+.under-career-one {
+    animation: translateX-2 1s;
+}
+
+.block-team {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.block-team h2 {
+    margin-top: 125px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.block-team img {
+    width: 20%;
+    height: 20%;
+
+}
+
+.block-team-table {
+    display: inline-block;
+}
+
+.block-team-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+
+.block-study {
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.block-study-one, .block-study-two {
+    margin-top: 100px;
+    width: 500px
+}
+
+.block-study-one {
+    text-align: left;
+}
+
+.block-study-two {
+    text-align: right;
+}
+
+
+.search-employee {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.search-employee button {
+    outline: none;
+    border: none;
+    background: rgb(185, 0, 0);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 20px;
+    text-transform: uppercase;
+    transition: 1s;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}

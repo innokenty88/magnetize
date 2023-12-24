@@ -1,0 +1,197 @@
+@media (max-width: 768px) {
+    ul li:nth-child(5n+1) {
+        display: none;
+        text-align: center;
+        padding-left: 50px;
+    }
+
+    ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header {
+        padding-left: 0px;
+    }
+
+    ul li {
+        margin: 10px;
+    }
+
+    .main-promo img {
+        width: 100%;
+    }
+
+    .main-promo button,
+    .second-promo-btn-item button {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main-promo p,
+    .main-promo button {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .second-promo {
+        margin-top: -360px;
+    }
+
+    .third-promo img {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    .third-promo-container img {
+        padding-left: 0px;
+    }
+
+    .third-promo-next {
+        margin-top: 30px;
+        font-size: 26px;
+    }
+
+    .third-promo-arrow {
+        color: red;
+        margin-top: -3px;
+        margin-left: 10px;
+    }
+    .blocks-services {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .blocks-services div {
+        margin-top: 50px;
+    }
+
+    .blocks-services-container li {
+        padding: 0px;
+    }
+
+    .blocks-services-container {
+        height: 550px;
+    }
+    .blocks-services-container span{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    ul button {
+        outline: none;
+        border: none;
+        background: rgb(185, 0, 0);
+        color: #fff;
+        font-size: 16px;
+        border-radius: 50px;
+        cursor: pointer;
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    html,
+    body {
+        padding-left: 15px;
+        padding-right: 15px;
+        overflow-x:hidden;
+    }
+
+    .second-promo {
+        width: 100%;
+    }
+
+    .main-promo button,
+    .second-promo-btn-item button {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .main-promo button {
+        width: 300px;
+    }
+
+    .main-promo p {
+        font-size: 18px;
+    }
+
+    .second-promo-btn-item button {
+        font-size: 12px;
+    }
+
+    ul {
+        padding-left: 0px;
+    }
+
+    .third-promo-container span {
+        margin-top: -250px;
+    }
+
+    .about-items {
+        gap: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-image {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .form-all {
+        flex-direction: column;
+    }
+    .form-container {
+        width: 300px
+    }
+    .form-container img {
+        height: 220px;
+        width: 220px;
+    }
+
+    footer {
+        height: 125px;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .social span:nth-child(2n+1) {
+        margin: 0 auto;
+        width: 100%;
+        display: none;
+    }
+    .blocks-services {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .blocks-services div {
+        margin-top: 50px;
+    }
+
+    .blocks-services-container li {
+        padding: 0px;
+    }
+
+    .blocks-services-container {
+        height: 550px;
+    }
+    .blocks-services-container span{
+        display: none;
+    }
+}
