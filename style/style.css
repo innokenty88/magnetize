@@ -371,7 +371,7 @@ ul button:hover {
 
 .third-promo-container img {
     margin: 50px;
-    animation: deg 5s infinite;
+    animation: deg 10s;
 }
 
 .third-promo img {
