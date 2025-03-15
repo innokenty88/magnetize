@@ -376,6 +376,7 @@ ul button:hover {
 
 .third-promo img {
     transition: 1s;
+    max-width: 400px;
 }
 
 .third-promo-image {
