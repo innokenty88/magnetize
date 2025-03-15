@@ -3,6 +3,15 @@
 @import url(style-page-4.css);
 @import url(style-page-5.css);
 
+@font-face {
+    font-family: 'Gilroy';
+    src: url('https://innokenty88.github.io/styles-aelita/gilroy-medium.woff2') format('woff2');
+}
+
+* {
+font-family: Gilroy !important;
+}
+
 ::-webkit-scrollbar {
     width: 17px;
 }
