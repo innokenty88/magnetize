@@ -650,8 +650,8 @@ footer .social span:nth-child(5) {
 
 @media (max-width: 768px) {
 .third-promo img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 200px !important;
+    max-height: 200px !important;
 }
     
     ul button {
